@@ -1,0 +1,21 @@
+def menu()
+print("Benvenuto al McDonegani!Qui sotto troverai il nostro menù,Seleziona le opzioni che più ti piacciono")
+print("[1]complimenti hai scelto il big mc")
+print("[2]complimenti hai scelto il crispy mcbacon")
+print("[3]complimenti hai scelto il mcchiken")
+print("[4]complimenti hai scelto le patatine")
+print("[5]complimenti hai scelto le nuggets")
+print("[6]comoplimenti hai scelto le alette di pollo")
+print("[7]complimenti hai scelto il mcflurry")
+print("[8]complimenti hai scelto il cono gelato")
+print("[9]complimenti hai scelto il cornetto alla nutella")
+print("[0]ordine completato")
+
+menu()
+choice=int(input("inserisci la tua opzione"))
+while choice!=0:
+Spesa=0
+if(choice==1):
+print("hai scelto il big mc,prezzo7€")
+Spesa=spesa+7
+
